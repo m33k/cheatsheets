@@ -3,3 +3,6 @@
 
 ### List services on your Openstack Cluster
 - openstack service list
+
+### List hosts involved with your Openstack Cluster
+- openstack host list

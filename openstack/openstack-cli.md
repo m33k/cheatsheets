@@ -9,3 +9,5 @@
 
 ### List Floating IPs and projects they are assigned to.
 - openstack floating ip list
+- openstack floating ip show [ IP ]
+  - provides details only on the ip argument passed.

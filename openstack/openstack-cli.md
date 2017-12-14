@@ -6,3 +6,6 @@
 
 ### List hosts involved with your Openstack Cluster
 - openstack host list
+
+### List Floating IPs and projects they are assigned to.
+- openstack floating ip list

@@ -3,3 +3,5 @@
 
 ### List all columns in a table
 - DESCRIBE images;
+OR
+- SHOW COLUMNS FROM [ table name ]

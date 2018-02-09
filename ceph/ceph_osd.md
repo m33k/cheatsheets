@@ -14,3 +14,7 @@
 ## Reweight crush on an OSD
 - ceph osd crush reweight [osd.#] [crush weight]
   - ceph osd crush reweight osd.10 0.0
+
+## Place OSD in cluster
+- ceph osd in [osd.#]
+  - ceph osd in osd.1

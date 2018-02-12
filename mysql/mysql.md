@@ -8,3 +8,6 @@ OR
 
 ### View two columns from a table
 - SELECT [ column name ], [ column name ] FROM [ table name ];
+
+### Delete row from a table
+- DELETE FROM [ table name ] WHERE id='$ID number';

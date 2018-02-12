@@ -5,3 +5,6 @@
 - DESCRIBE images;
 OR
 - SHOW COLUMNS FROM [ table name ]
+
+### View two columns from a table
+- SELECT [ column name ], [ column name ] FROM [ table name ];

@@ -18,3 +18,6 @@
 ## Place OSD in cluster
 - ceph osd in [osd.#]
   - ceph osd in osd.1
+
+## See status on OSD and what node it is on
+- ceph osd status

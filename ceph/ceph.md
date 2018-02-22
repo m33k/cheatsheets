@@ -2,6 +2,9 @@
 
 ## Watch Ceph Activity
 - ceph -w
+- ceph --watch-error
+- ceph --watch-warn
+- ceph --watch-debug
 
 ## Check Ceph Disk Usage in Gigabyte
 - ceph df

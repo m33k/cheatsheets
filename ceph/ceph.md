@@ -11,3 +11,12 @@
 - systemctl start ceph-mon.target (start all monitors)
 - systemctl stop ceph-osd.target (stop all osds)
 - systemctl start ceph-osd.target (start all osds)
+
+## Stop/Start ceph osd via /etc/init.d/ceph script
+- /etc/init.d/ceph -a stop
+- /etc/init.d/ceph -a start
+- /etc/init.d/ceph -a stop
+- /etc/init.d/ceph -a start
+- /etc/init.d/ceph stop osd.12
+- /etc/init.d/ceph stop osd.13
+

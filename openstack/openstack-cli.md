@@ -18,3 +18,7 @@
 
 ### List Servers running on all tenants.
 - openstack server list --all-projects
+
+### Delete server instance
+- openstack server delete [ Instance ID ]
+  - openstack server delete 2f82b081-8cda-4c24-baf0-884d64b34454

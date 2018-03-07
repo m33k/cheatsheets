@@ -11,3 +11,10 @@
 - openstack floating ip list
 - openstack floating ip show [ IP ]
   - provides details only on the ip argument passed.
+
+
+### List Servers running on current tenant.
+- openstack server list
+
+### List Servers running on all tenants.
+- openstack server list --all-projects

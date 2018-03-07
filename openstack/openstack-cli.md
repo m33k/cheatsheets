@@ -22,3 +22,6 @@
 ### Delete server instance
 - openstack server delete [ Instance ID ]
   - openstack server delete 2f82b081-8cda-4c24-baf0-884d64b34454
+
+### Create server instance
+- openstack server create --image <image> --flavor <flavor> --availability-zone nova:501d6571-2881-4beb-9ba7-c2f566ae9be5 --nic net-id=<network-id> <server-name>

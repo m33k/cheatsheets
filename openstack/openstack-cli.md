@@ -27,3 +27,6 @@
 
 ### Create server instance
 - openstack server create --image <image> --flavor <flavor> --availability-zone nova:501d6571-2881-4beb-9ba7-c2f566ae9be5 --nic net-id=<network-id> <server-name>
+
+### List users on Openstack
+- openstack user list

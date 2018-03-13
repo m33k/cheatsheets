@@ -18,3 +18,6 @@ glance image-show f630811a-b59b-4c0b-b235-1b1a6375bafe
 ## Protect and UnProtect Image
 glance image-update --protected True 26930a38-42b9-4698-8102-8f3f5766acb8
 glance image-update --protected False 26930a38-42b9-4698-8102-8f3f5766acb8
+
+## Rename an image
+glance image-update --name "$NEW_NAME" de35d4da-41e7-4298-bbb4-855bdb2380ee

@@ -21,3 +21,9 @@ glance image-update --protected False 26930a38-42b9-4698-8102-8f3f5766acb8
 
 ## Rename an image
 glance image-update --name "$NEW_NAME" de35d4da-41e7-4298-bbb4-855bdb2380ee
+
+## Update a property
+glance image-update --property pf9_virtual_size=2147483648 7769bac0-92c5-47ec-9eab-8230c43dc4f5
+
+## Remove a property
+glance image-update --remove-property pf9_virtuali_size 7769bac0-92c5-47ec-9eab-8230c43dc4f5

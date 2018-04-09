@@ -33,3 +33,6 @@
 
 ### List hypervisors
 - openstack hypervisor list
+
+### Compare cpu specs on hypervisor
+- openstack hypervisor show $hypervisor -f yaml | grep 'model'

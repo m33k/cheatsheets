@@ -30,3 +30,6 @@
 
 ### List users on Openstack
 - openstack user list
+
+### List hypervisors
+- openstack hypervisor list
